@@ -167,6 +167,7 @@ static const struct blkid_idinfo *idinfos[] =
 	&jffs2_idinfo,
 	&hfsplus_idinfo,
 	&hfs_idinfo,
+  &nilfs2_idinfo,
 };
 
 int probe_block(char *block, struct blkid_struct_probe *pr)
